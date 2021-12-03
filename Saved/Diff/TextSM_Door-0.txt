@@ -1,0 +1,38 @@
+Begin Object Class=/Script/Engine.StaticMesh Name="SM_Door"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_1"
+   End Object
+   Begin Object Class=/Script/NavigationSystem.NavCollision Name="NavCollision_14"
+   End Object
+   Begin Object Class=/Script/UnrealEd.FbxStaticMeshImportData Name="FbxStaticMeshImportData_14"
+   End Object
+   Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_4"
+   End Object
+   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_1"
+   End Object
+   Begin Object Name="NavCollision_14"
+   End Object
+   Begin Object Name="FbxStaticMeshImportData_14"
+   End Object
+   Begin Object Name="BodySetup_4"
+      AggGeom=(BoxElems=((Center=(X=0.000000,Y=-45.000000,Z=100.000008),X=18.483276,Y=90.000000,Z=200.000000,bIsGenerated=True)))
+      DefaultInstance=(ObjectType=ECC_WorldStatic,CollisionProfileName="BlockAll")
+   End Object
+   Begin Object Name="AssetImportData"
+   End Object
+   SourceModels(0)=(BuildSettings=(bRecomputeNormals=False,bGenerateLightmapUVs=False),ReductionSettings=(HardAngleThreshold=45.000000),ScreenSize=(Default=1.000000))
+   SectionInfoMap=(Map=((0, ()),(1, (MaterialIndex=1))))
+   OriginalSectionInfoMap=(Map=((0, ()),(1, (MaterialIndex=1))))
+   LightmapUVVersion=9
+   StaticMaterials(0)=(MaterialInterface=Material'"/Game/StarterContent/Props/Materials/M_Door.M_Door"',MaterialSlotName="M_Door",ImportedMaterialSlotName="M_Door",UVChannelData=(bInitialized=True,LocalUVDensities[0]=103.731064,LocalUVDensities[1]=184.544571))
+   StaticMaterials(1)=(MaterialInterface=Material'"/Game/StarterContent/Materials/M_Glass.M_Glass"',MaterialSlotName="M_Glass",ImportedMaterialSlotName="M_Glass",UVChannelData=(bInitialized=True,LocalUVDensities[0]=201.225128,LocalUVDensities[1]=309.919312))
+   LightmapUVDensity=225.571671
+   LightMapResolution=64
+   LightMapCoordinateIndex=1
+   AssetImportData=FbxStaticMeshImportData'"FbxStaticMeshImportData_14"'
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_1"'
+   EditorCameraPosition=(bIsSet=True,CamOrbitPoint=(X=0.382782,Y=-44.076141,Z=99.999901),CamOrbitZoom=(X=115.481071,Y=169.290024,Z=111.960945),CamOrbitRotation=(Pitch=-28.649815,Yaw=-145.700180,Roll=-0.000002))
+   bCustomizedCollision=True
+   ExtendedBounds=(Origin=(X=0.000000,Y=-45.000000,Z=100.000008),BoxExtent=(X=9.241638,Y=45.000000,Z=100.000000),SphereRadius=109.687057)
+End Object
